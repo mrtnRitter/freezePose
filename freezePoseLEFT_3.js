@@ -37,9 +37,10 @@ function propCycle (container){
 
 				if (prop.keyOutInterpolationType(lastKeyIndex) == KeyframeInterpolationType.BEZIER){
 
-					lastKeyEaseIn = prop.keyInTemporalEase(lastKeyIndex);	
+					lastKeyEaseIn = prop.keyInTemporalEase(lastKeyIndex);
+					lastKeyEaseOut = prop.keyOutTemporalEase(lastKeyIndex);
 					prop.setTemporalEaseAtKey(lastKeyIndex, lastKeyEaseIn, [hold]);
-					prop.setTemporalEaseAtKey(lastKeyIndex+1, [hold]);
+					prop.setTemporalEaseAtKey(lastKeyIndex+1, [hold], lastKeyEaseOut);
 				}
 
 			} catch(err){
