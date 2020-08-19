@@ -18,7 +18,7 @@ freezePoseLEFT_1:
 
 
 freezePoseLEFT_2:
-- last keyframe: left side stays original, right set easing is set to 0 speed and influence
+- last keyframe: left side stays original, right side easing is set to 0 speed and influence
 - duplicated keyframe: left side easing is set to 0 speed and influence, right side is set to HOLD
 - clearly visible where one pose is holded and a new pose starts
 
@@ -27,7 +27,7 @@ freezePoseLEFT_2:
 
 
 freezePoseLEFT_3:
-- last keyframe: left side stays original, right set easing is set to 0 speed and influence
+- last keyframe: left side stays original, right side easing is set to 0 speed and influence
 - duplicated keyframe: left side easing is set to 0 speed and influence, right side stays original
 - like version 2, but without keyframes on HOLD - maybe more practical this way?
 
