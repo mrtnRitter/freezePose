@@ -20,7 +20,7 @@ freezePoseLEFT_1:
 freezePoseLEFT_2:
 - last keyframe: left side stays original, right side easing is set to 0 speed and influence
 - duplicated keyframe: left side easing is set to 0 speed and influence, right side is set to HOLD
-- clearly visible where one pose is holded and a new pose starts
+- clearly visible where a pose is holded
 
 ![freezePoseLEFT_2](https://github.com/VogelMoritz/freezePose/blob/master/2.jpg?raw=true)
 
