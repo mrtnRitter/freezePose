@@ -12,6 +12,7 @@ freezePoseLEFT_1:
 - last keyframe: left side stays original, right side is set to HOLD
 - duplicated keyframe: easing is original on both sides
 - new pose can instantly created on duplicated keyframes
+https://github.com/VogelMoritz/freezePose/blob/master/1.jpg
 
 
 
